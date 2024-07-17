@@ -26,12 +26,7 @@ const append = message => {
 }
 
 function appendData(roomName, roomCode){
-    append({name: "Local Party", content: "Local Party allows you to watch local videos with your friends synchronously while chatting.", pfp: "#f3dfbf"})
-    append({name: "Local Party", content: `Welcome to ${roomName}`, pfp: "#f3dfbf"})
-    append({name: "Local Party", content: `Share the room code (${roomCode}) with others to invite them to the party.`, pfp: "#f3dfbf"})
-    append({name: "Local Party", content: "They would need to have the same video file with them to join this watch party.", pfp: "#f3dfbf"})
-    append({name: "Local Party", content: "You can change your username in the settings page.", pfp: "#f3dfbf"})
-    append({name: "Local Party", content: "Source code for the project is available at https://github.com/sheldor1510/local-party", pfp: "#f3dfbf"})
+    append({name: "Activist Ally", content: "Activist Ally allows you to video call with volunteers simuntaenously while watching a video ", pfp: "#f3dfbf"})
 }
 
 document.getElementById('roomCodeText').addEventListener('click', ()=>{
